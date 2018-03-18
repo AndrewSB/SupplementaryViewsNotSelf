@@ -1,0 +1,11 @@
+framework module IGListKit {
+  umbrella header "IGListKit.h"
+
+  export *
+  module * { export * }
+}
+
+module IGListKit.Swift {
+    header "IGListKit-Swift.h"
+    requires objc
+}
